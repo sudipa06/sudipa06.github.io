@@ -15,24 +15,7 @@ const Projects = [
   //   project_type: "Team Project",
   //   category: ["all", "backend"],
   // },
-  {
-    name: "Clone of BestBuy.com",
-    about:
-      "An e-commerce website, especially for electronics, computers, appliances, cell phones, video games & more new tech.",
-    img: "https://i.postimg.cc/MGx2cD9h/bestbuy-sc.png",
-    gitrepo:
-      "https://github.com/sudipa06/silent-cars-5141",
-    video: "",
-    tech_stack: "  REACT  |  CHAKRA UI ",
-    tech_stackicons: [
-      `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-      `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-      `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-    ],
-    project_link: "https://storied-dolphin-99e215.netlify.app/",
-    project_type: "Individual Project",
-    category: ["all", "html", "frontend"],
-  },
+ 
 
   // {
   //   name: "Clone of Zee5.com",
@@ -51,6 +34,38 @@ const Projects = [
   //   project_type: "Team Project",
   //   category: ["all", "frontend"],
   // },
+  
+  {
+    name:"Clone of Adorama.com",
+    about:"Online shopping for Electronics from a great selection of Accessories, Video, Lighting & Studio, Binoculars & Scopes, Video Surveillance etc",
+    img:"https://i.postimg.cc/q7dChq6z/adorama-sc.png",
+    gitrepo:"https://github.com/sudipa06/Adorama",
+    tech_stack:" REACT  |  CHAKRA UI",
+    tech_stackicons: [
+      `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+      `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+      `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+    ],
+    project_link:"https://astounding-gumdrop-02658c.netlify.app/",
+    project_type: "Team Project",
+    category: ["all", "frontend"],
+  },
+  {
+    name:"Clone of Lovoda.com",
+    about:"LOVODA is a women's fashion brand for the newest & trending fashion accessories and online shop that offered high quality products at an affordable price. ",
+    img:"https://i.postimg.cc/Y98TQky8/lovoda-sc.png",
+    gitrepo:"https://github.com/sudipa06/Lovoda_clone/tree/main/design-main-8893-main/design-main-8893-main/mean-design-lovoda",
+    tech_stack: "HTML | CSS | JAVASCRIPT",
+    tech_stackicons: [
+      `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+      `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+      `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+    ],
+    project_link:"https://golden-granita-b3ce4c.netlify.app/",
+    project_type:"Individual Project",
+    category: ["all", "frontend"],
+
+  },
   {
     name: "Clone of Loseit.com",
     about:
@@ -67,6 +82,25 @@ const Projects = [
     project_type: "Team Project",
     category: ["all", "frontend"],
   },
+  {
+    name: "Clone of BestBuy.com",
+    about:
+      "An e-commerce website, especially for electronics, computers, appliances, cell phones, video games & more new tech.",
+    img: "https://i.postimg.cc/MGx2cD9h/bestbuy-sc.png",
+    gitrepo:
+      "https://github.com/sudipa06/silent-cars-5141",
+    video: "",
+    tech_stack: "  REACT  |  CHAKRA UI ",
+    tech_stackicons: [
+      `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+      `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+      `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+    ],
+    project_link: "https://storied-dolphin-99e215.netlify.app/",
+    project_type: "Individual Project",
+    category: ["all", "html", "frontend"],
+  },
+  
  
 ];
 
