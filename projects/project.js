@@ -1,39 +1,5 @@
 const Projects = [
-  // {
-  //   name: "Clone of Loseit.com",
-  //   about:
-  //     "Lose It! is a calorie counter & food diary diet app that helps you stick to your diet and achieve weight loss that fits.",
-  //   img: "https://camo.githubusercontent.com/61f2312813ec22ecccd5b4a6897041c60212a81f23e92f09b2a96e5662c0ec2a/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f70726f78792f312a317732305344677a3941346a463342643870483736772e706e67",
-  //   gitrepo: "https://github.com/ranjanpalai69/looseit-clone",
-  //   tech_stack: "HTML | CSS | JAVASCRIPT",
-  //   tech_stackicons: [
-  //     `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-  //     `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-  //     `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-  //   ],
-  //   project_link: "https://elegant-kheer-5e8fb6.netlify.app/landing%20page2.2/landing.html",
-  //   project_type: "Team Project",
-  //   category: ["all", "backend"],
-  // },
- 
-
-  // {
-  //   name: "Clone of Zee5.com",
-  //   about:
-  //     "Zee5 is an Indian subscription video on-demand and over the top streaming service runned by ZEE Entertainments Enterprises.",
-  //   img: "https://miro.medium.com/max/828/1*Xnl2yu56eM87iDKUUybWRQ.png",
-  //   gitrepo: "https://github.com/anjalidhanjode28/Zee_clone",
-  //   tech_stack: "HTML | CSS | JAVASCRIPT ",
-  //   tech_stackicons: [
-  //     `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-  //     `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-  //     `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-  //     `<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`,
-  //   ],
-  //   project_link: "https://jocular-pony-971066.netlify.app/",
-  //   project_type: "Team Project",
-  //   category: ["all", "frontend"],
-  // },
+  
   
   {
     name:"Clone of Adorama.com",
@@ -96,7 +62,7 @@ const Projects = [
       `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
       `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
     ],
-    project_link: "https://storied-dolphin-99e215.netlify.app/",
+    project_link: "https://sparkling-dango-eac506.netlify.app/",
     project_type: "Individual Project",
     category: ["all", "html", "frontend"],
   },
