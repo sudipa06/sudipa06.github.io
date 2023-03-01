@@ -45,11 +45,12 @@ body
 }
 ul
 {
+     /* color:#b13737; */
     list-style: none;
 }
 
  /* animated squares */
-
+/* 
 .circles{
     position: absolute;
     top: 0;
@@ -168,22 +169,22 @@ ul
 {
     /* background: var(--bg-black-900);
     background-image: var(--bg-image); */
-    min-height: 100vh;
+    /* min-height: 100vh;
     display: block;
     padding: 0 30px;
     opacity: 1;
-    position: relative;
+    position: relative; */
     /* top: 0; */
     /* right: 0; */
     /* bottom: 0; */
     /* z-index: 0; */
-    overflow-y: auto;
+    /* overflow-y: auto;
     overflow-x: hidden;
     left: -0px;
     right: 0px;
     transition: all 0.3s ease;
-}
-.section.back-section
+} */
+/* .section.back-section
 {
     z-index: 1;
 }
@@ -192,8 +193,8 @@ ul
     z-index: 2;
     opacity: 1;
     animation: slideSection 1s ease;
-}
-@keyframes slideSection
+} */ */
+/* @keyframes slideSection
 {
     0%
     {
@@ -203,7 +204,7 @@ ul
     {
         transform: translateX(0%);
     }
-}
+} */
 .hidden
 {
     display: none !important;
@@ -259,14 +260,16 @@ ul
     margin-top: 8px;
 }
 .row
-{
+{ 
+    width: 96%;
+    /* margin: auto; */
     display: flex;
     flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
+    padding-left: 15px;
+    /* margin-right: -15px; */
     position: relative;
 }
-/* .btn
+ .btn
 {
     font-size: 16px;
     font-weight: 500;
@@ -280,7 +283,7 @@ ul
     background: var(--skin-color);
     
    
-} */
+} 
 
 .btn,#send_msg{
     height: 50px;
@@ -343,8 +346,12 @@ ul
     color: #ffffff;
 }
 #resume{
-    width: 100px;
-    left: 6%;
+    /* border:2px solid red; */
+    width: 150px;
+    /* margin-left: 7% ; */
+    /* left: 7%; */
+   
+ 
 }
 #resume::after{
     content: "Resume";
@@ -360,12 +367,13 @@ ul
 }
 /* aside */
 .aside{
+    /* border:5px solid black; */
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 10;
-    height: 10%;
+    /* height: 10%; */
     display: flex;
     /* justify-content: space-around; */
     background-color: var(--bg-black-100);
@@ -373,18 +381,19 @@ ul
 .aside button {
     position: fixed;
     margin-right: 15px;
-    margin-top: 5px;
+    margin-top: 15px;
     right: 0;
     z-index: 10;
-    height: 7%;
+    /* height: 7%; */
     background-color: var(--skin-color);
 }
 .aside .navhead .nav{
-    /* border: 1px solid red; */
-    width: 70%;
+     /* border: 1px solid rgb(0, 8, 255); */
+    width: 80%;
     margin: auto;
 }
 .aside ul{
+     /* border: 5px solid red; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -397,7 +406,8 @@ ul
 }
 .aside .logo a
 {
-    color: var(--text-black-900);
+    /* color: var(--text-black-900); */
+    color:var(--skin-color);
     font-weight: 500;
     padding: 10px 10px;
     font-size: 30px;
@@ -437,14 +447,17 @@ ul
     font-size: 16px;
     font-weight: 600;
     border-bottom: 1px solid var(--bg-black-50);
-    color: var(--text-black-900);
+    /* color: var(--text-black-900); */
+    /* color: blue; */
     padding: 5px 15px;
 }
 .aside .navhead .nav li a.active{
     color : var(--skin-color);
+    /* color:red; */
 }
 .aside .navhead .nav li a i
 {
+    color:rgb(246, 246, 246);
     margin-right: 15px;
 }
 
@@ -454,6 +467,7 @@ ul
     min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
+   
 }
 .home .home-info
 {
@@ -536,17 +550,19 @@ h3.my-profession
     /* height: 400px; */
     background-color: var(--skin-color);
     /* -webkit-mask-repeat: no-repeat;   */
-    border-radius: 50%;
+     border-radius: 10%; 
     height: 400px; 
     width: 300px;
+
     /* -webkit-mask-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8c3ZnIHZpZXdCb3g9IjAgMCAyMDAgMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGZpbGw9IiNGRjAwNjYiIGQ9Ik00Ni4yLC03NC4yQzU5LjEsLTYzLjUsNjguNCwtNDkuNSw3NC44LC0zNC41QzgxLjEsLTE5LjUsODQuNSwtMy40LDgzLjEsMTIuNUM4MS42LDI4LjQsNzUuMyw0NC4xLDY0LjMsNTQuNEM1My4zLDY0LjgsMzcuNiw2OS43LDIyLDczLjhDNi40LDc3LjgsLTkuMSw4MSwtMjMuMyw3Ny42Qy0zNy41LDc0LjMsLTUwLjMsNjQuNSwtNjAuNSw1Mi41Qy03MC43LDQwLjYsLTc4LjQsMjYuNSwtODIuMywxMC44Qy04Ni4yLC00LjksLTg2LjQsLTIyLjIsLTc5LjIsLTM1LjRDLTcyLC00OC41LC01Ny40LC01Ny41LC00Mi45LC02Ny42Qy0yOC41LC03Ny42LC0xNC4zLC04OC44LDEuMiwtOTAuNkMxNi42LC05Mi40LDMzLjIsLTg1LDQ2LjIsLTc0LjJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDAgMTAwKSIgLz4KPC9zdmc+Cg==); */
     /* -webkit-mask-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8c3ZnIHZpZXdCb3g9IjAgMCAyMDAgMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGZpbGw9IiNGRjAwNjYiIGQ9Ik00Ny42LC03NC41QzYxLjQsLTY1LjIsNzIuMSwtNTEuNSw3OS44LC0zNkM4Ny41LC0yMC42LDkyLjIsLTMuMyw4OS40LDEyLjZDODYuNywyOC40LDc2LjUsNDMsNjQuNyw1NS41QzUzLDY4LDM5LjYsNzguNiwyNCw4NC42QzguMyw5MC41LC05LjUsOTEuOSwtMjYuNCw4Ny45Qy00My4zLDgzLjgsLTU5LjIsNzQuNSwtNzAuNCw2MS4yQy04MS42LDQ3LjksLTg4LjEsMzAuOCwtODkuOCwxMy40Qy05MS41LC0zLjksLTg4LjUsLTIxLjUsLTgxLC0zNi42Qy03My41LC01MS43LC02MS41LC02NC40LC00Ny4zLC03My41Qy0zMywtODIuNSwtMTYuNSwtODgsMC4yLC04OC4zQzE2LjksLTg4LjYsMzMuOCwtODMuNyw0Ny42LC03NC41WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAwIDEwMCkiIC8+Cjwvc3ZnPgo=); */
 }
 
 .home__icon_cont {
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 
 }
 .home__icon_cont i {
@@ -554,7 +570,7 @@ h3.my-profession
     font-size: 28px;
     margin-top: 10px;
     margin-bottom: 15px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 /* About */
 .about .about-content
@@ -749,6 +765,7 @@ h3.my-profession
     border-bottom-left-radius: 40%;
 
 }
+
 .row h4{
     color: var(--text-black-700);
 }
@@ -1131,26 +1148,31 @@ h3.my-profession
 /* Github */
 
 .gitstack {
+   
+    width: 95%;
     margin: auto;
-    /* width: 70%; */
-    height: 197px;
+    /* height: 200px; */
     justify-content: center;
-    margin-top: 20px;
+    /* margin-top: -50px; */
     display:flex; 
     flex-wrap: nowrap;
-    gap:5px;
+    gap:2px;
     flex-direction:row;
-    /* border: 1px solid red; */
+    /* border: 4px solid red; */
+}
+.stats{
+    height: 200px;
 }
 .gitstack > div {
-    /* background-color: blue; */
-    width: 350px;
-    height: 100%;
+   /* border:2px solid blue; */
+    width: 100%;
+    
 }
 .gitstack >div > img {
     /* border: 1px solid green; */
-    width: 100%;
     height: 100%;
+    width: 100%;
+   
 }
 /* @media (max-width:1199px){
     
@@ -1442,6 +1464,11 @@ subheading : 32px */
     top: 0;
     left: 0;
     background-color: #000000;
+    padding:40px 20px;
+    }
+
+    .nav-item{
+        margin-bottom: 20px;
     }
 }
 

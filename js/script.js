@@ -87,13 +87,17 @@ const nav = document.querySelector(".nav"),
       //handburger
 let Arr1 = document.querySelector(".navbar-collapse")
 let section = document.querySelectorAll(".nav-item");
-console.log(section.length)
+// console.log(section.length)
 for(let i=0;i<section.length;i++) {
     section[i].addEventListener("click", () => {
         Arr1.classList.remove("show")
     })
 }
 
-window.addEventListener("scroll", () => {
-    Arr1.classList.remove("show")
-})
+
+// window.addEventListener("scroll", () => {
+//     Arr1.classList.remove("show")
+// })
+// function resume() {
+//     window.open("https://drive.google.com/file/d/15RudW44b_s3EDgUcYe2aTDZN1mS0P5a-/view?usp=sharing")
+// }

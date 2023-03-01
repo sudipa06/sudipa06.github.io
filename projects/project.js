@@ -5,14 +5,14 @@ const Projects = [
     name:"Clone of Adorama.com",
     about:"Online shopping for Electronics from a great selection of Accessories, Video, Lighting & Studio, Binoculars & Scopes, Video Surveillance etc",
     img:"https://i.postimg.cc/q7dChq6z/adorama-sc.png",
-    gitrepo:"https://github.com/sudipa06/Adorama",
+    gitrepo:"https://github.com/prashantxi786/TechoMania",
     tech_stack:" REACT  |  CHAKRA UI",
     tech_stackicons: [
       `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
       `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
       `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
     ],
-    project_link:"https://astounding-gumdrop-02658c.netlify.app/",
+    project_link:"https://techomania.vercel.app/",
     project_type: "Team Project",
     category: ["all", "frontend"],
   },
@@ -20,7 +20,7 @@ const Projects = [
     name:"Clone of Lovoda.com",
     about:"LOVODA is a women's fashion brand for the newest & trending fashion accessories and online shop that offered high quality products at an affordable price. ",
     img:"https://i.postimg.cc/Y98TQky8/lovoda-sc.png",
-    gitrepo:"https://github.com/sudipa06/Lovoda_clone/tree/main/design-main-8893-main/design-main-8893-main/mean-design-lovoda",
+    gitrepo:"https://github.com/sudipa06/Lovoda-Clone",
     tech_stack: "HTML | CSS | JAVASCRIPT",
     tech_stackicons: [
       `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
@@ -31,6 +31,21 @@ const Projects = [
     project_type:"Individual Project",
     category: ["all", "frontend"],
 
+  },
+  {
+    name:"Clone of 1800flowers.com",
+    about:"An E-commerce website where you can buy Products related to occasions like birthday, sympathy, wedding anniversay, funeral service etc. Product range include flowers, bouquets, cakes, gifts and decoration services related to different occasions.",
+    img:"https://i.postimg.cc/VNGRSYyp/IMG-20230228-WA0000.jpg",
+    gitrepo:"https://github.com/swati082001/bBlooms-1800Flowers-clone",
+    tech_stack:" REACT | REDUX | NODE JS | EXPRESS JS | MONGODB | MONGO ATLAS | CHAKRA UI ",
+    tech_stackicons: [
+      `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+      `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+      `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+    ],
+    project_link:"https://bblooms.vercel.app/",
+    project_type: "Team Project",
+    category: ["all","backend"],
   },
   {
     name: "Clone of Loseit.com",

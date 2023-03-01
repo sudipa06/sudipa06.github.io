@@ -7,27 +7,27 @@
   <title>SUDIPA | SOFTWARE DEVELOPER</title>
   <link rel="shortcut icon" href="/images/log.svg">
   <link rel="shortcut icon" type="image/x-icon" href="./images/profile-sudipa.jpg" />
-
+  
 
   <!-- ===== CSS Files ===== -->
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/skins/color-1.css">
+  <link rel="stylesheet" href="css/skins/color-3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- ====== Style Switcher ====== -->
-  <link rel="stylesheet" href="/css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
-  <link rel="stylesheet" href="/css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
-  <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+  <!-- <link rel="stylesheet" href="/css/skins/color-3.css" class="alternate-style" title="color-1" disabled>
+  <link rel="stylesheet" href="/css/skins/color-2.css" class="alternate-style" title="color-2" disabled> -->
+  <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-3" disabled>
   <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
   <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
-  <link rel="stylesheet" href="/css/skins/color-6.css" class="alternate-style" title="color-6" disabled>
-  <link rel="stylesheet" href="/css/skins/color-7.css" class="alternate-style" title="color-7" disabled>
+  <!-- <link rel="stylesheet" href="/css/skins/color-6.css" class="alternate-style" title="color-6" disabled>
+  <link rel="stylesheet" href="/css/skins/color-7.css" class="alternate-style" title="color-7" disabled> -->
   <link rel="stylesheet" href="css/skins/color-8.css" class="alternate-style" title="color-8" disabled>
   <link rel="stylesheet" href="css/skins/color-9.css" class="alternate-style" title="color-9" disabled>
   <link rel="stylesheet" href="css/skins/color-10.css" class="alternate-style" title="color-10" disabled>
   <link rel="stylesheet" href="css/style-switcher.css">
 
-  <link rel="stylesheet" href="/css/bubbles.css">
+  <!-- <link rel="stylesheet" href="/css/bubbles.css"> -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,8 +49,8 @@ emailjs.init("jkwaorEd26pKC3AcI");
   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
 />
 </head>
-<body class="dark">
-
+<body class="dark" >
+  <!-- class="dark" -->
     <div class="msg-pop-up">Message Sent, Thank You.</div>
     <div class="failed-msgpop">Please Fill Proper Information</div>
 
@@ -58,6 +58,8 @@ emailjs.init("jkwaorEd26pKC3AcI");
   <div class="main-container">
     <!-- ===== Aside Start ===== -->
     <nav  class="navbar navbar-expand-lg navbar-light">
+
+
       <div class="aside">
       <div class="logo navbar-brand">
         <a href="#"><span>Sudipa</span></a>
@@ -69,26 +71,28 @@ emailjs.init("jkwaorEd26pKC3AcI");
       <div class="collapse navbar-collapse navhead" id="navbarSupportedContent">
         <ul class="nav navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="#home"><i class="fa fa-home"></i> Home</a>
+            <a style="color:  var(--skin-color)" class="nav-link active" href="#home"><i class="fa fa-home"></i> Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about"><i class="fa fa-user"></i> About</a>
+            <a  style="color:  var(--skin-color)" class="nav-link active" href="#about"><i class="fa fa-user"></i> About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#skills"><i class="fa fa-list"></i>Skills</a>
+            <a  style="color:  var(--skin-color)" class="nav-link active" href="#skills"><i class="fa fa-list"></i>Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#projects"><i class="fa fa-briefcase"></i>Projects</a>
+            <a  style="color:  var(--skin-color)" class="nav-link active" href="#projects"><i class="fa fa-briefcase"></i>Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact1"><i class="fa fa-comments"></i>Contact</a>
+            <a  style="color:  var(--skin-color)" class="nav-link active" href="#contact1"><i class="fa fa-comments"></i>Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link"  target="_blank" href="https://drive.google.com/file/d/1MLLu_axk8hqAEPrjvgJezKlJqAeoUP69/view?usp=sharing"></i>Resume</a>
+            
+            <a  style="color:  var(--skin-color)" class="nav-link active" target="_blank" href="https://drive.google.com/uc?export=download&id=15RudW44b_s3EDgUcYe2aTDZN1mS0P5a-"  onclick="resume()"  ><i class="fa fa-user"></i>Resume</a>
+          
           </li>
         </ul>
-        
       </div>
+
     </div>
     </nav>
     <!-- ===== Aside End ===== -->
@@ -123,14 +127,18 @@ emailjs.init("jkwaorEd26pKC3AcI");
                   <a href="https://github.com/sudipa06" target="_blank"><div class="icon"><i class="fab fa-github"></i></div></a>
                   <a href="https://www.linkedin.com/in/sudipa-hazra-58a0a6190/" target="_blank"><div class="icon"><i class="fab fa-linkedin"></i></div></a>
                   <!-- <a href="" target="_blank"><div class="icon"><i class="fab fa-twitter"></i></div></a> -->
-                
+                  
                 </div>
                 
-              <a href="https://drive.google.com/file/d/1MLLu_axk8hqAEPrjvgJezKlJqAeoUP69/view?usp=sharing" target="_blank" id="resume" class="btn">Resume</a>
+                <button onclick="resumeClick()"  style="color:white ; background-color: var(--skin-color) ; padding: 10px; width: 100px; border-radius: 10px; border: none;">
+                  Resume
+                  <!-- id="resume" class="btn" -->
+                  <!-- <a style="color: white" href="https://drive.google.com/file/d/15RudW44b_s3EDgUcYe2aTDZN1mS0P5a-/view?usp=sharing" target="_blank" ></a> -->
+                </button>
             </div>
-            <div class="home-img padd-15">
+            <div class="home-img padd-15" >
               
-              <img src="./images/black.jpg" alt="profile-pic">
+              <img src="./images/img_port.png" alt="profile-pic">
             </div>
           </div>
         </div>
@@ -147,13 +155,14 @@ emailjs.init("jkwaorEd26pKC3AcI");
           </div>
           <div class="row">
             <div class="about-content padd-15">
+
               <div class="row">
                 <h4>👤 Summary</h4>
                 <div class="about_me about_text padd-10">
                   <div>
                   <p>➡️ I am a passionate software developer with web development technologies.</p>
-                  <p>➡️ Currently pursuing web development course from Masai School and ready to work.</p>
-                  <p>➡️ Have an experience of 1000+ hours of coding and 300+ hours of data sturctures and algorithms.</p>
+                  <p>➡️ Currently pursuing Web Development course from Masai School and ready to work.</p>
+                  <p>➡️ Have an experience of 1000+ hours of coding and 300+ hours of data structures and algorithms.</p>
                   
                   <p>➡️ Love to writing 👨‍💻 code and solve problem.</p>
                   <!-- <p>➡️ When I'm not at the keyboard, I like playing cricket and hanging out with friends.</p> -->
@@ -163,13 +172,15 @@ emailjs.init("jkwaorEd26pKC3AcI");
                 </div>
               
               </div>
+
+
               <div class="row about___box">
                 <div class="personal-info padd-15">
                   <div class="row about___info">
                   
                   
                     <div class="info-item padd-15 adjus">
-                      <p ><i class="fas fa-user-graduate"></i> <a href="https://drive.google.com/file/d/1MLLu_axk8hqAEPrjvgJezKlJqAeoUP69/view?usp=sharing" target="_blank">Resume</a></p>
+                      <p ><i class="fas fa-user-graduate"></i> <a href="https://drive.google.com/uc?export=download&id=15RudW44b_s3EDgUcYe2aTDZN1mS0P5a-" onclick="resume()" target="_blank">Resume</a></p>
                     </div>
                     <div class="info-item padd-15 adjus">
                       <p><i class="far fa-envelope"></i> <a href="mailto:sudipahazra.haldia@gmail.com" target="_blank">sudipahazra.haldia@gmail.com</a></p>
@@ -192,10 +203,10 @@ emailjs.init("jkwaorEd26pKC3AcI");
               
 
                 <!-- <h2 class="edu">Education</h2> -->
-                <div class="section-title padd-15 margtop">
-                  <h2>Education</h2>
-                </div>
-                <div class="EDUCATION">
+                <!-- <div class="section-title padd-15 margtop">
+                  <h2 style="margin-top: 50px;">Education</h2>
+                </div> -->
+                <!-- <div class="EDUCATION">
                     <div class="timeline">
                       <div class="line"></div>
                       <div class="section2">
@@ -229,7 +240,7 @@ emailjs.init("jkwaorEd26pKC3AcI");
                     
                    
                   </div>
-                </div>
+                </div> -->
               </div>
              
               </div>
@@ -243,7 +254,7 @@ emailjs.init("jkwaorEd26pKC3AcI");
         <div class="container">
           <div class="row">
             <div class="section-title padd-15">
-              <h2>Skills & Tools</h2>
+              <h2>Skills</h2>
             </div>
           </div>
           <div class="skills_Filter_Box">
@@ -256,6 +267,30 @@ emailjs.init("jkwaorEd26pKC3AcI");
         </div> 
       </section>
       <!-- ===== Skills End ===== -->
+
+      <!-- //tools -->
+
+      <section class="service section" id="skills">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Tools</h2>
+            </div>
+          </div>
+          
+          <div class="row" id="mytoolsskills">
+          </div>
+        </div> 
+      </section>
+
+
+
+
+
+
+
+
+
       <!-- ===== Projects Section Start ===== -->
        <section class="portfolio section" id="projects">
         <div class="container">
@@ -282,11 +317,17 @@ emailjs.init("jkwaorEd26pKC3AcI");
 
            </div>
         </div>
-      </section> -->
+      </section> 
       <!-- ===== Portfolio Section End ===== -->
         
     <!-- github start -->
-    <div class="calendar" style="height: 50%; width: 70% ">
+    <div class="container" >
+    <div class="row">
+    <div class="section-title padd-15">
+      <h2 >Git Calender</h2>
+    </div>
+    </div>
+    <div class="calendar" style=" width: 90% ">
        <!-- Loading stuff  -->
        Loading the data just for you.
     </div>
@@ -295,8 +336,12 @@ emailjs.init("jkwaorEd26pKC3AcI");
        // or enable responsive functionality
       GitHubCalendar(".calendar", "sudipa06", { responsive: true }); 
      </script>
-    <div  class="gitstack" >
-      <div>
+     <div class="row">
+      <div class="section-title padd-15">
+        <h2 style="margin-top: 70px;">GitHub Stats</h2>
+      </div>
+    <div  class="gitstack"  style="margin-top: -25px ">
+      <div class="stats">
         <img
           
           src="https://github-readme-streak-stats.herokuapp.com/?user=sudipa06&"
@@ -304,15 +349,15 @@ emailjs.init("jkwaorEd26pKC3AcI");
          
         />
       </div>
-      <div>
+      <div class="stats" >
       <img 
-          
+      
           src="https://github-readme-stats.vercel.app/api?username=sudipa06&show_icons=true&locale=en"
           alt="sudipa"
           
         />
         </div>
-        <div>
+        <div class="stats">
         <img
           
           src="https://github-readme-stats.vercel.app/api/top-langs?username=sudipa06&show_icons=true&locale=en&layout=compact"
@@ -321,6 +366,7 @@ emailjs.init("jkwaorEd26pKC3AcI");
         />
       </div>
     </div> -->
+  </div>
 
      <!-- github end -->
 
@@ -330,27 +376,21 @@ emailjs.init("jkwaorEd26pKC3AcI");
         <div class="container">
           <div class="row">
             <div class="section-title padd-15">
-              <h2 id="contact1">Contact Me</h2>
+              <h2 id="contact1" style="margin-top: 50px;">Contact Me</h2>
             </div>
           </div>
           <h3 class="contact-title padd-15">Connect With Me On : </h3>
           <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
-          <div class="row"> 
+          <div class="row" style="margin:auto " > 
             <!-- ===== Contact info item start ====== -->
-             <div class="contact-info-item padd-15">
+
+             <div class="contact-info-item padd-15" >
               <a href="https://www.linkedin.com/in/sudipa-hazra-58a0a6190/" target="_blank"><div class="icon"><i class="fab fa-linkedin"></i></div>
               <h4>Linkedin</h4>
               <p>SudipaHazra</p></a>
             </div> 
          
-             <!-- ===== Contact info item start ====== -->
-            <div class="contact-info-item padd-15">
-              <a href="" target="_blank"><div class="icon"><i class="fab fa-twitter"></i></div>
-              <h4>Intagram</h4>
-              <p>sudipa06</p></a>
-            </div> 
-            <!-- ===== Contact info item end ====== -->
-             <!-- ===== Contact info item start ====== -->
+          
              <div class="contact-info-item padd-15">
               <a href="mailto:sudipahazra.haldia@gmail.comm" target="_blank"><div class="icon"><i class="fa fa-envelope"></i></div>
               <h4>Email</h4>
@@ -372,11 +412,11 @@ emailjs.init("jkwaorEd26pKC3AcI");
             </div> 
             <!-- ===== Contact info item end ====== -->
            </div>
-          <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
-          <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4> 
+          <!-- <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3> -->
+          <!-- <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>  -->
           <!-- ====== Contact Form ====== -->
-         <form method="POST" onsubmit="SendMSG(event)">
-          <div class="row">
+         <!-- <form method="POST" onsubmit="SendMSG(event)"> -->
+          <!-- <div class="row">
             <div class="contact-form padd-15">
               <div class="row">
                 <div class="form-item col-6 padd-15">
@@ -412,13 +452,13 @@ emailjs.init("jkwaorEd26pKC3AcI");
                 </div>
               </div>
             </div>
-          </div>
-        </form>
+          </div> -->
+        <!-- </form> -->
         </div>
-      </section> -->
+      </section>
       <!-- ===== Contact Section End ===== -->
      
-      <section id="footer">
+      <!-- <section id="footer">
         <div class="container">
           <div id="footer">
             <p>👨‍💻 Made by Sudipa Hazra</p>
@@ -426,7 +466,7 @@ emailjs.init("jkwaorEd26pKC3AcI");
             <p>© 2022 copyright all right reserved</p>
           </div>
         </div>
-      </section> 
+      </section>  -->
 
      <!-- </div> -->
     <!-- ===== Main Content End ===== -->
@@ -434,8 +474,10 @@ emailjs.init("jkwaorEd26pKC3AcI");
   <!-- ===== Main Container End ===== -->
   <!-- ===== Style Switcher Start ===== -->
   <div class="style-switcher">
-    <div class="style-switcher-toggler s-icon">
-      <i class="fas fa-cog fa-spin"></i>
+    <div class="style-switcher-toggler s-icon" style="border:none ; display: none;">
+      
+      
+      <!-- <i class="fas fa-cog fa-spin"></i> -->
       <!-- <i class="fas fa-palette fa-spin"></i> -->
     </div>
 
@@ -443,7 +485,7 @@ emailjs.init("jkwaorEd26pKC3AcI");
       <i class="fas "></i>
     </div>
     
-    <h4>Theme Colors</h4>
+    <!-- <h4>Theme Colors</h4>
     <div class="colors">
       <span class="color-1" onclick="setActiveStyle('color-1')"></span>
       <span class="color-2" onclick="setActiveStyle('color-2')"></span>
@@ -455,7 +497,7 @@ emailjs.init("jkwaorEd26pKC3AcI");
       <span class="color-8" onclick="setActiveStyle('color-8')"></span>
       <span class="color-9" onclick="setActiveStyle('color-9')"></span>
       <span class="color-10" onclick="setActiveStyle('color-10')"></span>
-    </div>
+    </div> -->
   
   </div>
   <!-- ===== Style Switcher End ===== -->
@@ -478,4 +520,75 @@ emailjs.init("jkwaorEd26pKC3AcI");
 
 
 </body>
+<script>
+  function resume() {
+    window.open("https://drive.google.com/file/d/15RudW44b_s3EDgUcYe2aTDZN1mS0P5a-/view?usp=sharing")
+}
+
+// function handleResume(){
+//   window.open("https://drive.google.com/file/d/15RudW44b_s3EDgUcYe2aTDZN1mS0P5a-/view?usp=sharing")
+// }
+  
+  // fetch("images/fw20_0770-Sudipa-Hazra-Resume.pdf").then((res) => {
+  //     res.blob().then((blob) => {
+  //       const fileUrl = window.URL.createObjectURL(blob);
+  //       // create an object for the file.
+  //       let file = document.createElement("a");
+  //       file.href = fileUrl;
+  //       file.download = "images/fw20_0770-Sudipa-Hazra-Resume.pdf";
+  //       file.click();
+  //     });
+  //   });
+  
+ 
+
+  // const pdfButton = document.getElementById("pdf-btn");
+
+
+  // pdfButton.addEventListener("click", () => {
+  //   console.log("clickkkkkkkkkkkkkkk")
+  //   fetch("fw20_0770-Sudipa-Hazra-Resume.pdf")
+  //     .then(response => response.blob())
+  //     .then(blob => {
+  //       const url = window.URL.createObjectURL(blob);
+  //       const a = document.createElement('a');
+  //       a.href = url;
+  //       a.download = "/fw20_0770-Sudipa-Hazra-Resume.pdf";
+  //       document.body.appendChild(a);
+  //       a.click();     
+  //     });
+  // });
+
+
+
+  function resumeClick(){
+        console.log("click on handle resume")
+
+ var pdfUrl = "fw20_0770-Sudipa-Hazra-Resume.pdf";
+ 
+
+  // Replace "DRIVE_LINK_HERE" with the actual Google Drive link to open
+  var driveLink = "https://drive.google.com/file/d/15RudW44b_s3EDgUcYe2aTDZN1mS0P5a-/view?usp=sharing";
+
+
+  // Get the file name from the PDF URL
+  var fileName = pdfUrl.split("/").pop();
+
+  // Generate a temporary download link for the PDF file
+  var downloadLink = document.createElement("a");
+  downloadLink.href = "https://drive.google.com/uc?export=download&id=15RudW44b_s3EDgUcYe2aTDZN1mS0P5a-";
+  // downloadLink.download = fileName;
+
+  // Trigger the download
+  downloadLink.click();
+
+  // Open the Google Drive link in a new tab
+  window.open(driveLink, "_blank");
+ 
+
+    }
+
+
+
+</script>
 </html>
