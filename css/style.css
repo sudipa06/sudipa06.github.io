@@ -968,12 +968,13 @@ h3.my-profession
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
-    height: 520px;
+    /* height: 520px; */
     text-align: center;
     padding: 10px;
+    box-shadow:  0 0 12px var(--text-black-700);
+
 }
 .portfolio .portfolio-item-inner:hover{
-    box-shadow:  0 0 12px var(--text-black-700);
     transition: 0.5s ease;
 }
 .portfolio .portfolio-item-inner .portfolio-img > img
@@ -1081,6 +1082,7 @@ h3.my-profession
 
 .project_tech_box{
     text-align: left;
+    padding: 10px 0;
     font-size: 14px;
     font-weight: bold;
     color: var(--text-black-900);
@@ -1101,8 +1103,9 @@ h3.my-profession
 
 }
 .project__about{
-    height: 140px;
+    /* height: 140px; */
     overflow: hidden;
+    padding: 10px 0;
     font-size: 14px;
 
 }
@@ -1190,6 +1193,11 @@ h3.my-profession
 } */
 
 @media (max-width:991px){
+    #resumebtn{
+        margin: auto;
+        /* border: 2px solid red; */
+        display: none;
+    }
     .gitstack {
         margin-top: 120px;
         margin-bottom: 60px;
