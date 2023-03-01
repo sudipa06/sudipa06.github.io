@@ -139,7 +139,7 @@ function displayProjectData(Projects) {
       <h3 class="project-name">${pro.name}</h3>
       <h4 class="project-name project__about">${pro.about}</h4>
       <div class="navigate_ar">
-      <a href=${pro.project_link} target="_blank" title="Demo" class="see-project"><i class="fas fa-eye"></i></a>
+      <a href=${pro.project_link} target="_blank" title="Demo" class="see-project" style="background-color:--skin-color:#37b182"><i class="fas fa-eye"></i></a>
       <a href=${pro.gitrepo} target="_blank" title="GitHub Repository" class="github-repo"><i class="fab fa-github"></i></a>
       </div>
       <div class="project_tech_box">
