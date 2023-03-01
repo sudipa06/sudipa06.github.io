@@ -479,10 +479,12 @@ h3.hello
 {
     font-size: 30px;
     margin: 15px 0;
+    font-family: 'Poppins', sans-serif;
+
 }
 h3.hello span
 {
-    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Poppins', sans-serif;
     font-family: cursive;
     font-size: 30px;
     font-weight: bold;
@@ -492,10 +494,14 @@ h3.my-profession
 {
     font-size: 30px;
     margin: 15px 0;
+    /* font-family: 'Poppins' ,sans-serif; */
+
 }
 .typing
 {   
     color: var(--skin-color);
+    font-family: 'Poppins' ,sans-serif;
+
 }
 .home-info p
 {
@@ -584,11 +590,16 @@ h3.my-profession
 {
     flex: 0 0 100%;
     max-width: 100%;
+    /* border: 2px solid yellowgreen; */
+    
+    
 }
 .about .about-content .about-text
 {
     flex: 0 0 100%;
     max-width: 100%;
+  
+
 }
 .about .about-content .about-text h3
 {
@@ -612,6 +623,7 @@ h3.my-profession
     flex: 0 0 60%;
     max-width: 60%;
     margin-top: 40px;
+    
 }
 .about .about-content .personal-info .info-item
 {
@@ -628,7 +640,7 @@ h3.my-profession
 }
 .introdu{
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content .personal-info .info-item p span
@@ -716,6 +728,7 @@ h3.my-profession
     font-weight: 700;
     color: var(--text-black-900);
      color:rgb(250, 189, 4);
+     
 }
 
 .about_me{
@@ -725,9 +738,13 @@ h3.my-profession
     border-bottom: 2px dotted var(--text-black-700);
     color: var(--text-black-700);
     width: 100%;
+    /* border: 2px solid red; */
+
 }
 .about_me>div{
     width: 60%;
+    /* border: 2px solid red; */
+
 }
 #about-img{
     height: 250px;
@@ -1082,14 +1099,16 @@ h3.my-profession
 
 .project_tech_box{
     text-align: left;
-    padding: 10px 0;
+    padding: 10px ;
     font-size: 14px;
     font-weight: bold;
     color: var(--text-black-900);
+    /* border: 2px solid red; */
 }
 .TechStacks__text{
     font-weight: bold;
     color: var(--skin-color);
+    /* border: 2px solid red; */
 }
 
 .project-name{
@@ -1195,8 +1214,11 @@ h3.my-profession
 @media (max-width:991px){
     #resumebtn{
         margin: auto;
-        /* border: 2px solid red; */
-        display: none;
+         border: 2px solid red; 
+        /* display: none; */
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
     }
     .gitstack {
         margin-top: 120px;
@@ -1478,7 +1500,7 @@ subheading : 32px */
     .collapse {
     display: block;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     position: absolute;
     top: 0;
     left: 0;

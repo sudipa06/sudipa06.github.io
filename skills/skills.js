@@ -113,7 +113,7 @@ function displayTools(tools) {
     itemContainer.setAttribute("class", "service-item padd-15");
     itemContainer.innerHTML = `<div class="service-item-inner">
         <div class="">
-          <img src=${el.icon_url} width="48px" height="48px"/>
+          <img src=${el.icon_url} width="80px" height="80px"/>
         </div>
         <h4>${el.name}</h4>
       </div>`;
@@ -164,7 +164,7 @@ function displaySkills(skills) {
     itemContainer.setAttribute("class", "service-item padd-15");
     itemContainer.innerHTML = `<div class="service-item-inner">
         <div class="">
-          <img src=${skill.icon_url} width="48px" height="48px"/>
+          <img src=${skill.icon_url} width="80px" height="80px"/>
         </div>
         <h4>${skill.name}</h4>
       </div>`;

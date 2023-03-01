@@ -134,7 +134,7 @@ function displayProjectData(Projects) {
     let main = document.createElement("div");
     main.setAttribute("class", "portfolio-item padd-15");
     main.innerHTML = `
-    <div style="height:450px"  class="portfolio-item-inner shadow-dark">
+    <div style="height:460px"  class="portfolio-item-inner shadow-dark">
     <div class="portfolio-img">
       <img src=${pro.img} alt="">
       <h3 class="project-name">${pro.name}</h3>
