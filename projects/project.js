@@ -34,10 +34,11 @@ const Projects = [
   },
   {
     name:"Clone of 1800flowers.com",
-    about:"An E-commerce website where you can buy Products related to occasions like birthday, sympathy, wedding anniversay, funeral service etc. Product range include flowers, bouquets, cakes, gifts and decoration services related to different occasions.",
+    // about:"E-commerce website,specially for occasions like birthday,sympathy,wedding anniversay,funeral service etc.",
+    about:"E-commerce website, for occasions like birthday, wedding annivery, funeral service etc. Product range include flowers, bouquets, cakes, gifts.",
     img:"https://i.postimg.cc/VNGRSYyp/IMG-20230228-WA0000.jpg",
     gitrepo:"https://github.com/swati082001/bBlooms-1800Flowers-clone",
-    tech_stack:" REACT | REDUX | NODE JS | EXPRESS JS | MONGODB | MONGO ATLAS | CHAKRA UI ",
+    tech_stack:" REACT | REDUX | NODE JS | EXPRESS JS | MONGODB | CHAKRA UI ",
     tech_stackicons: [
       `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
       `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
@@ -133,7 +134,7 @@ function displayProjectData(Projects) {
     let main = document.createElement("div");
     main.setAttribute("class", "portfolio-item padd-15");
     main.innerHTML = `
-    <div class="portfolio-item-inner shadow-dark">
+    <div style="height:450px" class="portfolio-item-inner shadow-dark">
     <div class="portfolio-img">
       <img src=${pro.img} alt="">
       <h3 class="project-name">${pro.name}</h3>
