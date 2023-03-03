@@ -1,52 +1,52 @@
 const Projects = [
-  
-  
   {
-    name:"Clone of Adorama.com",
-    about:"Online shopping for Electronics from a great selection of Accessories, Video, Lighting & Studio, Binoculars & Scopes, Video Surveillance etc",
-    img:"https://i.postimg.cc/q7dChq6z/adorama-sc.png",
-    gitrepo:"https://github.com/prashantxi786/TechoMania",
-    tech_stack:" REACT  |  CHAKRA UI",
+    name: "Clone of Adorama.com",
+    about:
+      "An e-commerce website, especially for electronics, computers, application, cell phones, video game & more newtech.",
+    img: "https://i.postimg.cc/q7dChq6z/adorama-sc.png",
+    gitrepo: "https://github.com/prashantxi786/TechoMania",
+    tech_stack: " REACT  |  CHAKRA UI",
     tech_stackicons: [
       `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
       `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
       `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
     ],
-    project_link:"https://techomania.vercel.app/",
+    project_link: "https://techomania.vercel.app/",
     project_type: "Team Project",
     category: ["all", "frontend"],
   },
   {
-    name:"Clone of Lovoda.com",
-    about:"LOVODA is a women's fashion brand for the newest & trending fashion accessories and online shop that offered high quality products at an affordable price. ",
-    img:"https://i.postimg.cc/Y98TQky8/lovoda-sc.png",
-    gitrepo:"https://github.com/sudipa06/Lovoda-Clone",
+    name: "Clone of Lovoda.com",
+    about:
+      "LOVODA is a women's fashion brand for the newest & trending fashion accessories and online shop that offered high quality products at an affordable price. ",
+    img: "https://i.postimg.cc/Y98TQky8/lovoda-sc.png",
+    gitrepo: "https://github.com/sudipa06/Lovoda-Clone",
     tech_stack: "HTML | CSS | JAVASCRIPT",
     tech_stackicons: [
       `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
       `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
       `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
     ],
-    project_link:"https://golden-granita-b3ce4c.netlify.app/",
-    project_type:"Individual Project",
+    project_link: "https://golden-granita-b3ce4c.netlify.app/",
+    project_type: "Individual Project",
     category: ["all", "frontend"],
-
   },
   {
-    name:"Clone of 1800flowers.com",
+    name: "Clone of 1800flowers.com",
     // about:"E-commerce website,specially for occasions like birthday,sympathy,wedding anniversay,funeral service etc.",
-    about:"E-commerce website, for occasions like birthday, wedding annivery, funeral service etc. Product range include flowers, bouquets, cakes, gifts.",
-    img:"https://i.postimg.cc/VNGRSYyp/IMG-20230228-WA0000.jpg",
-    gitrepo:"https://github.com/swati082001/bBlooms-1800Flowers-clone",
-    tech_stack:" REACT | REDUX | NODE JS | EXPRESS JS | MONGODB | CHAKRA UI ",
+    about:
+      "E-commerce website, for occasions like birthday, wedding annivery, funeral service etc. Product range include flowers, bouquets, cakes, gifts.",
+    img: "https://i.postimg.cc/VNGRSYyp/IMG-20230228-WA0000.jpg",
+    gitrepo: "https://github.com/swati082001/bBlooms-1800Flowers-clone",
+    tech_stack: " REACT | REDUX | NODE JS | EXPRESS JS | MONGODB | CHAKRA UI ",
     tech_stackicons: [
       `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
       `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
       `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
     ],
-    project_link:"https://bblooms.vercel.app/",
+    project_link: "https://bblooms.vercel.app/",
     project_type: "Team Project",
-    category: ["all","backend"],
+    category: ["all", "backend"],
   },
   {
     name: "Clone of Loseit.com",
@@ -60,7 +60,8 @@ const Projects = [
       `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
       `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
     ],
-    project_link: "https://elegant-kheer-5e8fb6.netlify.app/landing%20page2.2/landing.html",
+    project_link:
+      "https://elegant-kheer-5e8fb6.netlify.app/landing%20page2.2/landing.html",
     project_type: "Team Project",
     category: ["all", "frontend"],
   },
@@ -69,8 +70,7 @@ const Projects = [
     about:
       "An e-commerce website, especially for electronics, computers, appliances, cell phones, video games & more new tech.",
     img: "https://i.postimg.cc/MGx2cD9h/bestbuy-sc.png",
-    gitrepo:
-      "https://github.com/sudipa06/silent-cars-5141",
+    gitrepo: "https://github.com/sudipa06/silent-cars-5141",
     video: "",
     tech_stack: "  REACT  |  CHAKRA UI ",
     tech_stackicons: [
@@ -82,8 +82,6 @@ const Projects = [
     project_type: "Individual Project",
     category: ["all", "html", "frontend"],
   },
-  
- 
 ];
 
 let projects__container = document.getElementById("projects--container");

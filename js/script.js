@@ -13,13 +13,17 @@ var typedName = new Typed(".name",{
     loop:true
 })
 /* ============================== Aside ============================ */
-const nav = document.querySelector(".nav"),
+const nav = document.querySelector(".nav")
+    //   nav.style.display="flex",
+    //   nav.style.justifyContent="space-around",
+    //   nav.style.alignItems= "center",
       navList = nav.querySelectorAll("li"),
       totalNavList = navList.length,
       allSection = document.querySelectorAll(".section"),
       totalSection = allSection.length;
       for(let i=0; i<totalNavList; i++)
-      {
+      {   console.log(navList[i])
+        console.log("nav", nav)
           const a = navList[i].querySelector("a");
           a.addEventListener("click", function()
           {
@@ -53,9 +57,9 @@ const nav = document.querySelector(".nav"),
         allSection[num].classList.add("back-section");
       }
       function showSection(element)
-      {
+      {  
           for(let i=0; i<totalSection; i++)
-          {
+          {   console.log(allSection[i])
               allSection[i].classList.remove("active");
           }
           const target = element.getAttribute("href").split("#")[1];
@@ -73,15 +77,15 @@ const nav = document.querySelector(".nav"),
               }
           }
       }
-      document.querySelector(".hire-me").addEventListener("click", function()
-      {
-          const sectionIndex = this.getAttribute("data-section-index");
-          //console.log(sectionIndex);
-          showSection(this);
-          updateNav(this);
-          removeBackSection();
-          addBackSection(sectionIndex);
-      })
+    //   document.querySelector(".hire-me").addEventListener("click", function()
+    //   {
+    //       const sectionIndex = this.getAttribute("data-section-index");
+    //       //console.log(sectionIndex);
+    //       showSection(this);
+    //       updateNav(this);
+    //       removeBackSection();
+    //       addBackSection(sectionIndex);
+    //   })
  
 
       //handburger
