@@ -1229,7 +1229,7 @@ h3.my-profession
 
     #resumebtn{
         margin: auto;
-         border: 2px solid red; 
+         /* border: 2px solid red;  */
         /* display: none; */
         /* display: flex;
         justify-content: center;
@@ -1522,7 +1522,7 @@ subheading : 32px */
     background-color: #000000;
     padding:40px 20px;
     font-size: 16px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     }
 
     .nav-item{
