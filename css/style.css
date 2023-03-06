@@ -385,7 +385,7 @@ ul
     right: 0;
     z-index: 10;
     /* height: 7%; */
-    
+
     background-color: var(--skin-color);
 }
 .aside .navhead .nav{
@@ -915,7 +915,7 @@ h3.my-profession
     transition: all 0.5s ease;
 }
 .service .service-item .service-item-inner:hover
-{
+{   
     box-shadow:  0 0 12px var(--text-black-700);
 }
 .service .service-item .service-item-inner .icon 
@@ -926,7 +926,6 @@ h3.my-profession
     display: block;
     margin:  0 auto 30px;
     text-align: center;
-    transition: all 0.3s ease;
 }
 .service .service-item .service-item-inner .icon .fa
 {
@@ -1159,6 +1158,7 @@ h3.my-profession
 #footer{
     text-align: center;
     color: #fff;
+   
     background-color: var(--skin-color);
     min-height: 30vh;
     display: block;
@@ -1223,7 +1223,7 @@ h3.my-profession
         background-color: #000000;
         padding:40px 20px;
         font-size: 16px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         }
 
 
